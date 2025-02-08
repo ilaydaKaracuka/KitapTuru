@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/loginActivity"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="650dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_layout4"
+        >
+        <ImageView
+            android:id="@+id/ivWelcomeImage"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:src="@drawable/ikonu"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KitapTuru"
+            android:layout_gravity="center"
+            android:textSize="38sp"
+            android:textColor="@color/guncelleButton"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoşgeldiniz"
+            android:layout_gravity="center"
+            android:textColor="@color/textColorSiyah"
+            android:layout_marginTop="90dp"
+            android:textSize="58sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GİRİŞ YAP"
+            android:textColor="@color/textColorSiyah"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="140dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kayıt Ol"
+            android:textColor="@color/textColorSiyah"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/rounded_button"/>
+    </LinearLayout>
+</LinearLayout>

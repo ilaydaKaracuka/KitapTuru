@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_layout2"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/detay_activity_imageViewKitapResim"
+            android:layout_width="240dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Kitap Resmi" />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapAdiBos"
+            android:layout_below="@id/detay_activity_imageViewKitapResim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Kitap Adı: " />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapAdi"
+            android:layout_below="@id/detay_activity_imageViewKitapResim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/detay_activity_textViewKitapAdiBos"
+            android:layout_alignBaseline="@id/detay_activity_textViewKitapAdiBos"
+            android:textSize="18sp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapYazariBoş"
+            android:layout_below="@id/detay_activity_textViewKitapAdiBos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Kitap Yazarı: " />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapYazari"
+            android:layout_below="@id/detay_activity_textViewKitapAdiBos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/detay_activity_textViewKitapYazariBoş"
+            android:layout_alignBaseline="@id/detay_activity_textViewKitapYazariBoş"
+            android:textSize="18sp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapYorumuBoş"
+            android:layout_below="@id/detay_activity_textViewKitapYazari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Kitap Yorumu: " />
+
+        <TextView
+            android:id="@+id/detay_activity_textViewKitapYorumu"
+            android:layout_below="@id/detay_activity_textViewKitapYorumuBoş"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/detay_activity_textViewKitapYorumuBoş"
+            android:layout_alignBaseline="@id/detay_activity_textViewKitapYorumuBoş"
+            android:textSize="18sp"
+            android:text=""
+            android:scrollbars="vertical"
+            android:maxHeight="200dp"
+            android:layout_marginBottom="80dp" /> <!-- Butonlarla çakışmaması için alt marjin eklendi -->
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_below="@id/detay_activity_textViewKitapYorumuBoş"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/detay_activity_buttonUpdate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Güncelle"
+                android:textSize="22sp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@color/textColor"
+                android:radius="26dp" />
+
+            <Button
+                android:id="@+id/detay_activity_buttonDelete"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="SİL"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/rounded2_button"
+                android:textColor="@color/textColor"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

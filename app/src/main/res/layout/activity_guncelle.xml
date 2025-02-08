@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/mainActivity"
+
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_layout"
+        >
+        <ImageView
+            android:id="@+id/guncelle_activity_imageViewKitapResim"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="Kitap Resmi" />
+
+        <EditText
+            android:id="@+id/guncelle_activity_editTextKitapAdi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kitap Adı"
+            android:layout_below="@id/guncelle_activity_imageViewKitapResim"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/guncelle_activity_editTextKitapYazari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kitap Yazarı"
+            android:layout_below="@id/guncelle_activity_editTextKitapAdi"
+            android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:id="@+id/guncelle_activity_editTextKitapYorumu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kitap Yorumu"
+            android:layout_below="@id/guncelle_activity_editTextKitapYazari"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/guncelle_activity_buttonKaydet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/guncelle_activity_editTextKitapYorumu"
+            android:layout_centerHorizontal="true"
+            android:text="Güncelle"
+            android:textColor="@color/textColor"
+            android:background="@drawable/rounded_button"
+            />
+    </RelativeLayout>
+</ScrollView>

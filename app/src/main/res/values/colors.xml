@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="activity_add_book_background">#ACC8D3</color>
+    <color name="btnKaydet_background">#3A8099</color>
+    <color name="kitapItemBgColor">#D3EBF0</color>
+    <color name="kitapItemTextColor">#000000</color>
+    <color name="detayActivityTextColor">#000000</color>
+    <color name="kitapRecyclerViewBgColor">#D8EDF3</color>
+    <color name="guncelleButton">#006A8C</color>
+    <color name="silButton">#D53F3F</color>
+    <color name="mainActivity">#65949D</color>
+    <color name="loginActivity">#D9EDF3</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textColorSiyah">#000000</color>
+
+
+
+
+</resources>

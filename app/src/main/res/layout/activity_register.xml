@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/loginActivity"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="350dp"
+        android:layout_height="650dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_layout4">
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı Adı"
+        android:textSize="27dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        android:textSize="27dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:textSize="27dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button" />
+</LinearLayout>
+</LinearLayout>
+
