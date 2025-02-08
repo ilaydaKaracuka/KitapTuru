@@ -42,6 +42,14 @@ Gelişmiş uyarı sistemleri ve kullanıcı odaklı tasarımıyla, **KitapTuru**
 
 ## 📸 Ekran Görüntüleri  
 
-| **Giriş Ekranı** | **Ana Sayfa** | **Kitap Ekleme** |  
-|:-:|:-:|:-:|  
-| ![1-welcome-Photoroom](https://github.com/user-attachments/assets/a19a3ea9-9315-4670-b365-9d1ec15b7aad) | ![home-screen](https://github.com/user-attachments/assets/your-image-link) | ![add-book](https://github.com/user-attachments/assets/your-image-link) |  
+| **Hoşgeldin Ekranı** | **Kayıt Ol Ekranı** | **Giriş Yap Ekranı** | **Ana Ekran** |  
+|:-:|:-:|:-:|:-:|  
+| ![1-welcome-Photoroom](https://github.com/user-attachments/assets/a19a3ea9-9315-4670-b365-9d1ec15b7aad) | ![2-register-Photoroom](https://github.com/user-attachments/assets/9c4c2dcd-d5c9-4aca-b4df-a47a83461e3b) | ![3-login-Photoroom](https://github.com/user-attachments/assets/3a3305da-4e92-4656-97c7-47920a2e2534) | ![4-main activity-Photoroom](https://github.com/user-attachments/assets/d9e6b566-c468-4127-97a0-784f60b08c2e) |  
+
+| **Kitap Ekleme Ekranı 1** | **Kitap Ekleme Ekranı 2** | **Güncelleme Ekranı** | **Arama Ekranı** |  
+|:-:|:-:|:-:|:-:|  
+| ![8-izin-Photoroom](https://github.com/user-attachments/assets/ba339398-74fb-4489-bdf0-43ea081a2baa) | ![12-add veri-Photoroom](https://github.com/user-attachments/assets/10b0f2a5-883d-448e-a84e-d4da3cc7621b) | ![20-guncelle-Photoroom](https://github.com/user-attachments/assets/5612ca6f-3088-43e5-903a-5a5f2cb4a20d) | ![23-search-Photoroom](https://github.com/user-attachments/assets/d6054407-07f1-4730-8e82-fd93400ad495) |  
+
+
+
+
